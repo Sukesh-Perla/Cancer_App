@@ -84,7 +84,7 @@ else:
 
 #Prediction on clicking Run Button
 result = st.button('Run On This Image')
-if result:
+if agree or uploaded_file is not None:
     with st.spinner('Wait for it...'):
         time.sleep(1)
         class_pred = pred(image_data)
