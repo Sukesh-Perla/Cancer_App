@@ -1,6 +1,5 @@
-python == 3.8.3
+python
 streamlit
-base64
 pandas == 1.0.5
 datetime
 time
