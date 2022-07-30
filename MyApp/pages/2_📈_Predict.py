@@ -4,6 +4,7 @@ import datetime
 import time
 from PIL import Image
 import numpy as np
+import cv2
 from tensorflow.keras.models import load_model
 
 st.set_page_config(
@@ -49,7 +50,7 @@ agree = st.checkbox('Use Sample Image')
 #Predict funtion
 def pred(image_data):
     img = np.array(image_data)/255.
-    img = np.resize(img,(128,128))
+    img = cv2.resize(img,(128,128))
     img = np.expand_dims(img,axis=0)
     pred = (cancer_model.predict(img)>0.5).astype("int32").flatten()
     return pred
@@ -74,7 +75,7 @@ def info(pred):
 
 #Agree button
 if agree and uploaded_file is None:
-    image_data = Image.open('benign_SOB_B_A-14-22549AB-200-013.png')
+    image_data = Image.open('MyApp/benign_SOB_B_A-14-22549AB-200-013.png')
     st.image(image_data.resize((512,256)))
 
 else:
