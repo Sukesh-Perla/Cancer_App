@@ -79,7 +79,7 @@ if agree and uploaded_file is None:
          'Select the Sample:',
          ("Sample01-Malignant.png","Sample02-Malignant.png","Sample03-Malignant.png","Sample04-Malignant.png",
          "Sample05-Benign.png","Sample06-Benign.png","Sample07-Benign.png","Sample08-Benign.png"))
-    image_data = Image.open("MyApp/Test_Images/"+image)
+    image_data = Image.open("MyApp/Sample_Images/"+image)
     st.image(image_data.resize((512,256)))
 
 
