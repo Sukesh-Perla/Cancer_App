@@ -117,10 +117,4 @@ tzdata==2022.1
 tzlocal==4.2
 urllib3==1.26.11
 validators==0.20.0
-watchdog==2.1.9
-wcwidth==0.2.5
-webencodings==0.5.1
-Werkzeug==2.2.0
-widgetsnbextension==3.6.1
-wrapt==1.14.1
-zipp==3.8.1
+
