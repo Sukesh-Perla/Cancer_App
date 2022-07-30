@@ -77,11 +77,19 @@ def info(pred):
 if agree and uploaded_file is None:
     image = st.selectbox(
          'Select the Sample:',
-         ("benign_SOB_B_A-14-22549CD-100-010.png", "benign_SOB_B_F-14-21998CD-100-020.png", "benign_SOB_B_F-14-23060AB-100-014.png",
-         "benign_SOB_B_F-14-25197-200-061.png","benign_SOB_B_F-14-29960AB-100-002.png","malignant_SOB_M_DC-14-16188-40-011.png",
-         "malignant_SOB_M_DC-14-18650-200-005.png","malignant_SOB_M_LC-14-13412-40-018.png","malignant_SOB_M_MC-14-19979-100-007.png"))
+         ("Sample01-Malignant.png","Sample02-Malignant.png","Sample03-Malignant.png","Sample04-Malignant.png",
+         "Sample05-Benign.png","Sample06-Benign.png","Sample07-Benign.png","Sample08-Benign.png")
     image_data = Image.open("Test_Images/"+image)
     st.image(image_data.resize((512,256)))
+
+
+
+
+
+
+
+
+
 
 else:
     if uploaded_file is not None:
