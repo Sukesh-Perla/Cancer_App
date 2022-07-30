@@ -24,7 +24,7 @@ st.markdown('<h1 style="text-align:left;color:DeepPink;font-weight:bolder;font-s
 
 
 def load_gif():
-    file_ = open("MyApp/ezgif.com-gif-maker.gif", "rb")
+    file_ = open("MyApp/Data/ezgif.com-gif-maker.gif", "rb")
     contents = file_.read()
     data_url = base64.b64encode(contents).decode("utf-8")
     file_.close()
