@@ -4,7 +4,6 @@ import datetime
 import time
 from PIL import Image
 import numpy as np
-import cv2
 from tensorflow.keras.models import load_model
 
 st.set_page_config(
@@ -49,8 +48,8 @@ agree = st.checkbox('Use Sample Image')
 
 #Predict funtion
 def pred(image_data):
-    img = cv2.resize(img,(128,128))
     img = np.array(image_data)/255.
+    img = np.resize(img,(128,128,3))
     img = np.expand_dims(img,axis=0)
     pred = (cancer_model.predict(img)>0.5).astype("int32").flatten()
     return pred
