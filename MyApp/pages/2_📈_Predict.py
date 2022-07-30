@@ -5,8 +5,6 @@ import datetime
 import time
 from PIL import Image
 import numpy as np
-import cv2
-from opencv import cv2
 from tensorflow.keras.models import load_model
 
 st.set_page_config(
