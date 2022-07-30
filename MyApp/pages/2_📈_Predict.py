@@ -72,6 +72,25 @@ def info(pred):
             st.write("##### If You Have Breast Cancer - American Cancer Society [link](https://www.cancer.org/cancer/breast-cancer/if-you-have-breast-cancer.html)")
             st.write("##### Living Beyond Breast Cancer - Ibbc.org [link](https://www.lbbc.org/blog/)")
 
+option = st.selectbox(
+     'Select the Sample below to test the system:?',
+     ("benign_SOB_B_A-14-22549CD-100-010.png", "benign_SOB_B_F-14-21998CD-100-020.png", "benign_SOB_B_F-14-23060AB-100-014.png",
+     "benign_SOB_B_F-14-25197-200-061.png","benign_SOB_B_F-14-29960AB-100-002.png"," malignant_SOB_M_DC-14-16188-40-011.png",
+     " malignant_SOB_M_DC-14-18650-200-005.png","malignant_SOB_M_LC-14-13412-40-018.png","malignant_SOB_M_MC-14-19979-100-007.png"))
+
+benign_SOB_B_A-14-22549CD-100-010.png
+benign_SOB_B_F-14-21998CD-100-020.png
+benign_SOB_B_F-14-23060AB-100-014.png
+benign_SOB_B_F-14-25197-200-061.png
+benign_SOB_B_F-14-29960AB-100-002.png
+malignant_SOB_M_DC-14-16188-40-011.png
+malignant_SOB_M_DC-14-18650-200-005.png
+malignant_SOB_M_LC-14-13412-40-018.png
+malignant_SOB_M_MC-14-19979-100-007.png
+
+
+
+
 #Agree button
 if agree and uploaded_file is None:
     image_data = Image.open('MyApp/benign_SOB_B_A-14-22549AB-200-013.png')
