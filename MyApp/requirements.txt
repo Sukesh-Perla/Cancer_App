@@ -1,8 +1,6 @@
-python
 streamlit
 pandas
 datetime
-time
 PIL
 numpy
 tensorflow
