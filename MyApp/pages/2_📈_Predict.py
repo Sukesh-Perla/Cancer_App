@@ -31,7 +31,7 @@ add_bg_from_url()
 
 
 #Loading the model
-cancer_model = load_model("Best_model/")
+cancer_model = load_model("MyApp/Best_model/")
 
 #make a title for your webapp
 st.markdown('<h1 style="text-align:left;color:DeepPink;font-weight:bolder;font-size:40px;">User Information</h1>',unsafe_allow_html=True)
