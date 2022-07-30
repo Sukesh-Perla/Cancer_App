@@ -49,8 +49,8 @@ agree = st.checkbox('Use Sample Image')
 
 #Predict funtion
 def pred(image_data):
-    img = np.array(image_data)/255.
     img = cv2.resize(img,(128,128))
+    img = np.array(image_data)/255.
     img = np.expand_dims(img,axis=0)
     pred = (cancer_model.predict(img)>0.5).astype("int32").flatten()
     return pred
