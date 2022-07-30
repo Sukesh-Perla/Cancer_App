@@ -83,9 +83,9 @@ else:
         st.image(image_data.resize((512,256)))
 
 #Prediction on clicking Run Button
-result = st.button('Run On This Image')
-if result:
-    if agree or uploaded_file is not None:
+if agree or uploaded_file is not None:
+    result = st.button('Run On This Image')
+    if result:
         with st.spinner('Wait for it...'):
             time.sleep(1)
             class_pred = pred(image_data)
