@@ -36,14 +36,14 @@
   <p align="center">
     Prediction of Breast Cancer using histopathology image
     <br />
-    <a href="https://github.com/ACM40960/project-RaghulRavikumar"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ACM40960/project-Sukesh-Perla"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://nascent-bot-cancer-app-myappwelcome-i66wjm.streamlitapp.com/How_To_Use">View Demo</a>
     ·
-    <a href="https://github.com/ACM40960/project-RaghulRavikumar/issues">Report Bug</a>
+    <a href="https://github.com/ACM40960/project-Sukesh-Perla/issues">Report Bug</a>
     ·
-    <a href="https://github.com/ACM40960/project-RaghulRavikumar/issues">Request Feature</a>
+    <a href="https://github.com/ACM40960/project-Sukesh-Perla/issues">Request Feature</a>
   </p>
 </div>
 
@@ -134,7 +134,7 @@ To get a local copy up and running follow these simple steps.
 
 Clone the Repo.
   ```sh 
-git clone https://github.com/ACM40960/project-RaghulRavikumar.git
+git clone https://github.com/ACM40960/project-Sukesh-Perla.git
   ```
   
 
@@ -232,7 +232,7 @@ _For detailed steps with screenshot, please refer to the [How-To-Use](http://loc
 
 <!-- DEMO -->
 ## Demo   
-![Video](https://github.com/ACM40960/project-RaghulRavikumar/blob/main/Images/Demo.gif)
+![Video](https://github.com/ACM40960/project-Sukesh-Perla/blob/main/Images/Demo.gif)
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -240,7 +240,7 @@ _For detailed steps with screenshot, please refer to the [How-To-Use](http://loc
 - [ ] Improve Accuracy of the Model (Current Accuracy at 92%)
 - [ ] Include Login Functionality
 - [ ] Introduce Database to store user information
-- [ ] Fix [Issues](https://github.com/ACM40960/project-RaghulRavikumar/issues) if any  
+- [ ] Fix [Issues](https://github.com/ACM40960/project-Sukesh-Perla/issues) if any  
 - [ ] Mobile Application Development
     - [ ] Android
     - [ ] iOS
@@ -277,9 +277,9 @@ This Application is currently not licensed and is free to use by everyone.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [Raghul Ravikumar](https://www.linkedin.com/in/raghul0211/) - raghul0211@gmail.com
+Your Name - [Raghul Ravikumar](https://www.linkedin.com/in/sukeshperla/) - raghul0211@gmail.com
 
-Project Link: [Breast Cancer Detection](https://github.com/ACM40960/project-RaghulRavikumar)
+Project Link: [Breast Cancer Detection](https://github.com/ACM40960/project-Sukesh-Perla)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -306,13 +306,13 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/badge/Contributors-2-green
-[contributors-url]: https://github.com/ACM40960/project-RaghulRavikumar/graphs/contributors
+[contributors-url]: https://github.com/ACM40960/project-Sukesh-Perla/graphs/contributors
 [forks-shield]: https://img.shields.io/badge/Fork-0-red
-[forks-url]: https://github.com/ACM40960/project-RaghulRavikumar/network/members
+[forks-url]: https://github.com/ACM40960/project-Sukesh-Perla/network/members
 [issues-shield]: https://img.shields.io/badge/Issues-0-blue
 [issues-url]: https://github.com/ACM40960/project-RaghulRavikumar/issues
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-blue
-[linkedin-url]: https://www.linkedin.com/in/raghul0211/
+[linkedin-url]: https://www.linkedin.com/in/sukeshperla/
 [product-screenshot]: Images/introduction.png
 [python]: https://img.shields.io/badge/Python_3.8-FFD43B?style=for-the-badge&logo=python&logoColor=blue
 [python-url]: https://www.python.org/
